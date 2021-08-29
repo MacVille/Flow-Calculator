@@ -10,6 +10,12 @@ $ÜberToolStripMenuItem_Click = {
 }
 $ÜberToolStripMenuItem_Click = {
 }
+$ÜberToolStripMenuItem_Click = {
+}
+$ÜberToolStripMenuItem_Click = {
+}
+$ÜberToolStripMenuItem_Click = {
+}
 $SpracheToolStripMenuItem_Click = {
 
     . "$PSScriptRoot\Scripts\sprachauswahl.ps1"
