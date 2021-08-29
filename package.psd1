@@ -12,7 +12,7 @@
         ProductVersion = '0.01'
         Copyright = ''
         RequireElevation = $false
-        ApplicationIconPath = 'G:\Documents\WindowsPowerShell\Scripts\Flow Rechner\icons8_3d_printer.ico'
+        ApplicationIconPath = 'G:\Documents\WindowsPowerShell\Scripts\Flow Rechner\Images\icons8_3d_printer.ico'
         PackageType = 'Console'
     }
     Bundle = @{
