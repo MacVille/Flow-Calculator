@@ -55,7 +55,6 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.ToolStripMenuItem]$ÜberToolStripMenuItem = $null
 function InitializeComponent
 {
-$resources = . (Join-Path $PSScriptRoot 'flowrechner.resources.ps1')
 $GroupBox1 = (New-Object -TypeName System.Windows.Forms.GroupBox)
 $bt_Calculate = (New-Object -TypeName System.Windows.Forms.Button)
 $TableLayoutPanel1 = (New-Object -TypeName System.Windows.Forms.TableLayoutPanel)
@@ -641,18 +640,17 @@ $Label27.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([
 $Label27.Name = [System.String]'Label27'
 $Label27.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]153,[System.Int32]18))
 $Label27.TabIndex = [System.Int32]3
-$Label27.Text = [System.String]'Link zu dem genauen Artikell:'
+$Label27.Text = [System.String]'Link zu dem genauen Artikel (Variante 2):'
 $Label27.UseCompatibleTextRendering = $true
 #
 #LinkLabel2
 #
-$LinkLabel2.AutoSize = $true
 $LinkLabel2.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]336,[System.Int32]115))
 $LinkLabel2.Name = [System.String]'LinkLabel2'
-$LinkLabel2.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]255,[System.Int32]18))
+$LinkLabel2.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]255,[System.Int32]28))
 $LinkLabel2.TabIndex = [System.Int32]4
 $LinkLabel2.TabStop = $true
-$LinkLabel2.Text = [System.String]'https://3dprintbeginner.com/flow-rate-calibration/'
+$LinkLabel2.Text = [System.String]'https://drucktipps3d.de/fluss-und-linienbreite-einstellen/?fbclid=IwAR1Tvku-bZJbQZZAQ4rBa-NmRQVjPgYMl4YeLxP56c-23pz2jDY-HaNyJMo'
 $LinkLabel2.UseCompatibleTextRendering = $true
 $LinkLabel2.add_LinkClicked($LinkLabel2_LinkClicked)
 #
@@ -719,7 +717,6 @@ $Form1.Controls.Add($GroupBox2)
 $Form1.Controls.Add($GroupBox1)
 $Form1.Controls.Add($MenuStrip1)
 $Form1.FormBorderStyle = [System.Windows.Forms.FormBorderStyle]::FixedSingle
-$Form1.Icon = ([System.Drawing.Icon]$resources.'$this.Icon')
 $Form1.MainMenuStrip = $MenuStrip1
 $Form1.MaximizeBox = $false
 $Form1.SizeGripStyle = [System.Windows.Forms.SizeGripStyle]::Hide
