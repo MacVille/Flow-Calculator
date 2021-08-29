@@ -145,7 +145,7 @@ $bt_Calculate.Location = (New-Object -TypeName System.Drawing.Point -ArgumentLis
 $bt_Calculate.Name = [System.String]'bt_Calculate'
 $bt_Calculate.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]75,[System.Int32]23))
 $bt_Calculate.TabIndex = [System.Int32]0
-$bt_Calculate.Text = [System.String]'Rechen'
+$bt_Calculate.Text = [System.String]'Rechnen'
 $bt_Calculate.UseCompatibleTextRendering = $true
 $bt_Calculate.UseVisualStyleBackColor = $true
 $bt_Calculate.add_Click($bt_calculation_Click)
@@ -224,7 +224,7 @@ $Label2.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([S
 $Label2.Name = [System.String]'Label2'
 $Label2.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]144,[System.Int32]85))
 $Label2.TabIndex = [System.Int32]0
-$Label2.Text = [System.String]'0,96 enspricht bei einer 0,40 Düse inlk. 20% Düsenquellung 0,48x2 dem ideal von 100% bitte hier deine gemessenen Werte eintragen:
+$Label2.Text = [System.String]'0,96 enspricht bei einer 0,40 Düse inkl. 20% Düsenquellung 0,48x2 dem ideal von 100%. Bitte hier deine gemessenen Werte eintragen:
 '
 $Label2.TextAlign = [System.Drawing.ContentAlignment]::BottomCenter
 $Label2.UseCompatibleTextRendering = $true

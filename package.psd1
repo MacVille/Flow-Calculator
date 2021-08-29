@@ -6,10 +6,10 @@
         Obfuscate = $false
         HideConsoleWindow = $true
         DotNetVersion = 'v4.6.2'
-        FileVersion = '1.0.1'
+        FileVersion = '1.0.2'
         FileDescription = 'Small Tool to Calculate the Flow for your 3D Printer'
         ProductName = 'Flow Calculator'
-        ProductVersion = '0.0.2'
+        ProductVersion = '0.0.3'
         Copyright = ''
         RequireElevation = $false
         ApplicationIconPath = 'G:\Documents\WindowsPowerShell\Scripts\Flow Rechner\Images\icons8_3d_printer.ico'
